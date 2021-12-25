@@ -7,6 +7,10 @@
 
 function isNegative() {}
 
+let name  = 'Daniel'
+let number1 =  -10
+let number2 =  -5
+let number3 =  10
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */

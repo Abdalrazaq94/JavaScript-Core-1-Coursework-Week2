@@ -7,7 +7,7 @@ Tip: use logical operators
 */
 
 function validate(num) {}
-
+ let number = [10, 17, 34, 100, 34]
 /*
 Write a function that:
 - takes a number as input
@@ -18,6 +18,7 @@ Write a function that:
 
 function formatPercentage(num) {}
 
+
 /*
 Write a function that:
 - takes an array of strings as input
@@ -27,6 +28,15 @@ Write a function that:
 */
 function tidyUpStrings(arrayOfStrings) {}
 
+
+let names = [
+  'Anas',
+  'HASSN',
+  'Critis'
+]
+
+let result = names.toLowerCae();
+let remove = names.tirm();
 /* ======= TESTS - DO NOT MODIFY ===== */
 
 test("validate function accepts valid even number", () => {
